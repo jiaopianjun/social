@@ -1,0 +1,158 @@
+/* line 1, ../sass/LoginPop.scss */
+.LoginPop {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 220px;
+  width: 340px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  background-color: #f5f6f8;
+  z-index: 100;
+}
+
+/* line 13, ../sass/LoginPop.scss */
+.banner .prev, .banner .next {
+  z-index: 8 !important;
+}
+
+/* line 17, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_outer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* line 25, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_cancle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 14px;
+  height: 14px;
+  background: url("http://www.iplaystone.com/static/common/images/cancel.png");
+  cursor: pointer;
+}
+
+/* line 35, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_title {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 41, ../sass/LoginPop.scss */
+.LoginPop_title img {
+  display: inline-block;
+}
+
+/* line 44, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input {
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+
+/* line 50, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input .LoginPop_error {
+  display: none;
+  height: 20px;
+  padding-left: 15px;
+  color: red;
+  background: url("http://www.iplaystone.com/static/common/images/error.png") left no-repeat;
+}
+
+/* line 58, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input > input {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #f0f1f2;
+  background-color: #f0f1f2;
+  outline: none;
+  padding: 0 15px 0 30px;
+  color: gray;
+  box-sizing: border-box;
+}
+
+/* line 68, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input > input:focus {
+  border-color: #00aaff;
+}
+
+/* line 72, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input .LoginPop_icon {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 80, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input .LoginPop_user {
+  background: url("http://www.iplaystone.com/static/common/images/user.png") no-repeat;
+}
+
+/* line 84, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_input .LoginPop_pwd {
+  background: url("http://www.iplaystone.com/static/common/images/key.png") no-repeat;
+}
+
+/* line 88, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_btn {
+  width: 100%;
+  height: 46px;
+  margin: 30px 0 15px 0;
+}
+
+/* line 94, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_btn > button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: white;
+  border: none;
+  color: white;
+  background: url("http://www.iplaystone.com/static/common/images/btn_normal.png");
+  cursor: pointer;
+}
+
+/*    .LoginPop .LoginPop_btn > button:hover{
+      background: url('../images/btn_hover.png');
+    }*/
+/* line 109, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_forget,
+.LoginPop .LoginPop_register {
+  font-size: 12px;
+}
+
+/* line 114, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_forget {
+  /*float: left;*/
+  color: #808080;
+}
+
+/* line 119, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_register {
+  /*float: right;*/
+  color: #5a9ddf;
+}
+
+/* line 123, ../sass/LoginPop.scss */
+.LoginPop .LoginPop_box {
+  text-align: center;
+}
+
+/* line 126, ../sass/LoginPop.scss */
+.LoginPop_box span {
+  display: inline-block;
+  height: 15px;
+  width: 1px;
+  background: #999;
+  margin: 0 20px;
+  position: relative;
+  top: 3px;
+}

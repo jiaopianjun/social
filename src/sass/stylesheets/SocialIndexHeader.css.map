@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;yGAGyG;AAGzG,EAAE;EACD,KAAK,EAAC,GAAG",
+"sources": ["../sass/SocialIndexHeader.scss"],
+"names": [],
+"file": "SocialIndexHeader.css"
+}

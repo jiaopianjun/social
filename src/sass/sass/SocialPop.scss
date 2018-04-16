@@ -1,0 +1,181 @@
+.pop{
+  .divmask{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000003;
+  }
+  .rulePop{
+    position:fixed;
+    left:50%;
+    top:50%;
+    z-index: 1000004;
+    min-width: 418px;
+    min-height: 278px;
+    border:1px solid rgb(26, 26, 26);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    .rulePop-Hd{
+      background-color: rgb(25, 27, 46);
+      padding:0 15px;
+      height:37px;
+      line-height: 37px;
+      font-size: 14px;
+      font-family: "Microsoft YaHei";
+      color: rgb(179, 181, 199);
+      img{
+        display: inline-block;
+        margin-top: 10px;
+      }
+    }
+    .rulePop-Cont{
+      font-size: 14px;
+      font-family: "Microsoft YaHei";
+      color: rgb(89, 89, 89);
+      text-align: center;
+    }
+    .rulePop-Bt{
+      text-align: center;
+      height: 36px;
+      span{
+        display: inline-block;
+        width: 122px;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        margin:0 15px;
+      }
+      .ruleCannle{
+        position:relative;
+        top:1px;
+        height: 34px;
+        border:1px solid rgb(220, 220, 220);
+        background-color: rgba(245, 246, 247, 0);
+      }
+      .ruleSure{
+        color: rgb(255, 255, 255);
+        background-image: -moz-linear-gradient( 0deg, rgb(0,149,255) 1%, rgb(48,240,240) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(0,149,255) 1%, rgb(48,240,240) 100%);
+        background-image: linear-gradient( 0deg, rgb(0,149,255) 1%, rgb(48,240,240) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(0,149,255) 1%, rgb(48,240,240) 100%);
+      }
+    }
+  }
+  .Jrule{
+    margin-left: -209px;
+    margin-top: -139px;
+  }
+  .Jrule .rulePop-Cont{
+    position:relative;
+    min-height: 30px;
+    padding:65px 0;
+    line-height: 30px;
+    .ruleSelect{
+      height: 30px;
+      width: 225px;
+      margin:0 auto;
+      p{
+        width: 150px;
+      }
+      .ruleSelectBox{
+        position:relative;
+        width: 90px;
+        padding-left:12px;
+        text-align: left;
+        height: 28px;
+        border:1px solid rgb(220, 220, 220);
+        background-color: rgb(255, 255, 255);
+        .ruleSelectInput{
+          width: 100%;
+          height: 28px;
+        }
+        i{
+          top: -31px;
+          right: -65px;
+        }
+        .roate{
+          top:-23px;
+        }
+        .ruleSelectDrown{
+            position:absolute;
+            left:-1px;
+            top:28px;
+            width:102px;
+            min-height: 30px;
+            border:1px solid rgb(198, 198, 204);
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+            z-index: 2000004;
+           li{
+              padding-left:12px;
+              height: 30px;
+              line-height: 30px;
+              &:hover{
+                background-color: rgb(235, 236, 237);
+              }
+           }
+        }
+      }
+    }
+    .faqBox{
+      width: 333px;
+      margin: 20px auto;
+      min-height: 210px;
+      .faqerr{
+        text-align: left;
+        padding-left: 100px;
+        color: red;
+      }
+      h4{
+        font-size: 18px;
+        font-family: "Microsoft YaHei";
+        color: rgb(77, 77, 77);
+        margin-bottom:35px;
+      }
+      .faqContList{
+        width:333px;
+        height:35px;
+        margin-bottom:15px;
+        .faqLeft{
+          float:left;
+          width:100px;
+          text-align:right;
+          height:35px;
+          line-height:35px;
+          font-size: 14px;
+          font-family: "Microsoft YaHei";
+          color: rgb(77, 77, 77);
+        }
+        .faqRight{
+          float:right;
+          select,option,input{
+            width: 232px;
+            padding:0 15px;
+            height: 38px;
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            color: rgb(77, 77, 77);
+            border:1px solid rgb(225, 226, 230);
+            background-color: rgb(255, 255, 255);
+            cursor:pointer;
+          }
+          input{
+            width:200px;
+            cursor:auto;
+          }
+        }
+      }
+    }
+  }
+  .Jrule .padding0{
+    padding:0
+  }
+  .pb40{
+    padding-bottom:40px;
+    .rulePop-Cont{
+      padding:0;
+    }
+  }
+}

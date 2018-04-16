@@ -1,0 +1,68 @@
+.SocialIndexHot{
+   padding:15px 19px;
+   margin-bottom: 20px;
+   width: 240px;
+   .HotList{
+   	 width:100%;
+   	 height: auto;
+   	 padding-top:20px;
+   	 ul{
+   	 	width:100%;
+   	 	height: auto;
+   	 	li{
+   	 	  width:100%;
+   	 	  height:20px;
+   	 	  line-height:20px;
+   	 	  margin-bottom:20px;
+   	 	  &:last-child{
+   	 	  	margin-bottom: 0;
+   	 	  }
+   	 	  &:first-child i{
+   	 	  	background-color: rgb(255, 92, 38);
+   	 	  }
+   	 	  &:nth-child(2) i{
+   	 	  	background-color: rgb(253, 145, 0);
+   	 	  }
+   	 	  &:nth-child(3) i{
+   	 	  	background-color: rgb(248, 193, 39);
+   	 	  }
+   	 	}
+   	 	a{
+   	 		width:100%;
+   	 		font-size: 14px;
+   	 	}
+   	 	i{
+		    display: inline-block;
+		    width: 16px;
+		    height: 16px;
+		    line-height: 16px;
+		    border-radius: 50%;
+		    font-size: 12px;
+		    color: #fff;
+		    text-align: center;
+		    background: #cdcdcd;
+		    margin: 2px 5px 0 0;
+          font-style: normal;
+   	 	}
+   	 	span{
+         color: #585858;
+         display: inline-block;
+         width: 160px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         text-align: left;
+         &:hover{
+           color:#00aaff;
+         }
+   	 	}
+   	 	b{
+   	 		color: rgb(167, 167, 167);
+            font-style: normal;
+            font-weight:normal;
+   	 	}
+   	 }
+   }
+}
+
+

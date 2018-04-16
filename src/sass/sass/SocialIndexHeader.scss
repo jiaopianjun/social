@@ -1,0 +1,131 @@
+.h5{
+	height: 100%;
+	display: inline-block;
+	color:#333;
+}
+.SocialIndexHeader{
+   width:962px;
+   height: 82px;
+   background:#fff;
+   padding:19px;
+   font-family: "Microsoft YaHei";
+
+   .SiH-Info-Pic{
+      width:80px;
+      height: 80px;
+      margin-right:19px;
+   }
+   .SiH-Info-name{
+      width: 590px;
+      height: auto;
+      a{
+		color: #333;
+	  }
+      .Hname{
+		width: 100%;
+		font-size: 18px;
+		color: #404040;
+		line-height: 3;
+		height: 45px;
+		a:first-child{
+			color: #333;
+		}
+		#h5{
+			height: 100%;
+			display: inline-block;
+			color:#333;
+		}
+		a.HnameBtnUn{
+			margin:14px 0 0 14px;
+		}
+		.HnameBtnOn{
+			margin-top: 15px;
+            margin-left: 10px;
+		}
+		.HnameBtnOn , .HnameBtnUn{
+			width: 62px;
+			height: 26px;
+			line-height: 26px;
+			font-size: 12px;
+			color: rgb(88, 88, 88);
+			border: 1px solid rgb(234, 236, 239);
+			background-color: rgba(40, 215, 250, 0);
+		}
+		.HnameBtnUn{
+			color: #fff;
+			background: #00aaff;
+			border-color: #00aaff;
+			img{
+				margin-right:5px;
+			}
+		}
+		.HnameBtnOn{
+           span:first-child{
+           	display: inline-block;
+           }
+           span:last-child{
+            display: none;
+           }
+           &:hover{
+           	span:first-child{
+           	  display: none;
+            }
+            span:last-child{
+              display: inline-block;
+            }
+           }
+		}
+      }
+      .Htitle{
+		width: 100%;
+		color: rgb(166, 166, 166);
+		line-height: 2;
+		font-size: 14px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+      }
+   }
+   .SiH-Href{
+   	    margin-right:20px;
+   	    margin-top:22px;
+   }
+   .SiH-Launch{
+		width: 124px;
+		height: 38px;
+		font-size: 14px;
+		color: rgb(255, 255, 255);
+		line-height: 38px;
+		border-radius: 19px;
+		// background-image: -moz-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+		// background-image: -ms-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+		// background-image: -webkit-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+		background-image:url(../../images/postbtn1.png);
+		box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.11);
+		text-align: center;
+		margin-right: 20px;
+		cursor:pointer;
+		img{
+			margin: -1px;
+			margin-right: 5px;
+		}
+		&:hover{
+		   transform:translateY(-3px);
+		   -webkit-transform:translateY(-3px);
+		   -moz-transform:translateY(-3px);
+		   -ms-transform:translateY(-3px);
+		   box-shadow: (0 10px 20px rgba(4,233,245, 0.1));
+		}
+   }
+   .goShop{
+		width: 66px;
+		height: 35px;
+		line-height:34px;
+		font-size: 14px;
+		color: rgb(88, 88, 88);
+		border: 1px solid rgb(234, 236, 239);
+		border-radius: 19px;
+		background-color: rgba(253, 35, 86, 0);
+   }
+
+}

@@ -1,0 +1,338 @@
+// @import "compass/reset";
+body{
+background:#f5f6f8; 
+font-family: "Microsoft YaHei";
+padding:0;
+margin:0;
+background:#F5F6F8 url(http://www.iplaystone.com/circle/img/bg.png) no-repeat center top;
+background-attachment: fixed;
+}
+b{
+font-weight: bold;
+}
+i{
+font-style: italic;
+}
+#stone_header{
+	height:70px;
+}
+.stone_header{
+	position:static;
+}
+#stone_footer{
+    margin-top:25px;
+}
+.login_pop{
+	z-index:100000000;
+}
+.stone_mask{z-index:99999999;}
+.app{
+width: 1002px;
+height: auto;
+margin:0 auto;
+font-family: "Microsoft YaHei";
+padding-top:30px;
+}
+.textOverFlow{
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.icon-top, .icon-good ,.icon-gf{
+position: relative;
+display: inline-block;
+top: -8px;
+font-size: 12px;
+color: #fff;
+min-width: 10px;
+padding: 0 5px;
+height: 17px;
+line-height: 17px;
+text-align: center;
+}
+.icon-good{
+background: #ff8b3d;
+}
+.icon-top{
+background: #ff4c4c;
+}
+.icon-gf{
+background:#00aaff;
+}
+.icon-good , .icon-top , .icon-gf{
+font-style:normal;
+}
+.cur{
+cursor: pointer;
+}
+.default{
+cursor:default;
+}
+.bgWhite{
+border:1px solid #e6e7eb;
+background:#fff;
+}
+.animation{
+transition:all .3s linear;
+-ms-transition:all .3s linear;
+-moz-transition:all .3s linear;
+-webkit-transition:all .3s linear;
+}
+.clearfix:before, .clearfix:after{
+content:"";
+display:table;
+height:0;
+visibility:hidden;
+clear:both;
+}
+a{
+display: inline-block;
+text-align: center;
+text-decoration: none;
+}
+*:focus{outline:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix {*zoom: 1;}
+#app .none{display:none}
+.SocialIndex{
+width: 1002px;
+margin:0 auto;
+}
+.SocialIndex .SocialIndexMain{
+width: 100%;
+margin-top: 16px;
+}
+.SocialIndexMain .MainList{
+width:700px;
+}
+.app .MainMoudle{
+width: 280px; 
+}
+.SocialIndex,
+.SocialIndex .SocialIndexMain,
+.SocialIndexMain .MainList,
+.SocialIndexMain .MainModule{
+height: auto;
+}
+.MoudleHd{
+width:100%;
+height: 32px;
+font-size: 16px;
+color: rgb(64, 64, 64);
+border-bottom:1px solid rgb(238, 240, 241);
+}
+.MoudleHd a{
+display: inline-block;
+font-size: 14px;
+color: rgb(129, 129, 129);
+padding:2px 20px 2px 0;
+background: url(../../images/icon1.png) no-repeat right 6px;
+}
+.MoudleHd a:hover{
+  color:#0099e5;
+}
+@-webkit-keyframes hmove
+{
+from {top:0;}
+to {top:0;}
+}
+@keyframes hmove
+{
+from {top:0;}
+to {top:0;}
+}
+@-moz-keyframes hmove
+{
+from {top:0;}
+to {top:0;}
+}
+.hfixed{
+position: fixed;
+animation:hmove 2s normal;
+-webkit-animation:hmove 2s normal;
+-moz-animation:hmove 2s normal;
+-ms-animation:hmove 2s normal;
+}
+.MainMoudle .HdInfo{
+top:0;
+padding:30px 19px;
+margin-bottom: 20px;
+border: 1px solid #eaeced;
+background: #fff;
+min-height: 50px;
+width:240px;
+transition: all .1s linear;
+-ms-transition: all .1s linear;
+-moz-transition: all .1s linear;
+-webkit-transition: all .1s linear;
+}
+.MainMoudle .HdInfo .SiH-Info-Pic {
+width: 60px;
+height: 60px;
+border-radius: 5px;
+}
+.MainMoudle .HdInfo .SiH-Info-name{
+width: 170px;
+margin-left:10px;
+}
+.MainMoudle .HdInfo .Hname{
+width:100%;
+height: 25px;
+line-height:25px;
+font-size: 18px;
+color: #404040;
+margin:5px 0 10px 0;
+}
+.MainMoudle .Hname h5{
+width:90px;
+height: 25px;
+overflow: hidden;
+text-overflow: ellipsis;;
+white-space: nowrap;
+}
+.MainMoudle .Hname .h5{
+width: 56%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.MainMoudle .HdInfo .Htitle{
+width: 180px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 14px;
+color: rgb(166, 166, 166);
+}
+
+.MainMoudle .HnameBtnOn ,
+.MainMoudle .HnameBtnUn{
+width: 62px;
+height: 26px;
+line-height: 26px;
+font-size: 12px;
+color: rgb(88, 88, 88);
+border: 1px solid rgb(234, 236, 239);
+background-color: rgba(40, 215, 250, 0);
+margin-left:10px;
+}
+.MainMoudle .HnameBtnUn{
+color: #fff;
+background: #00aaff;
+border-color: #00aaff;
+}
+.HnameBtnOn{
+span:first-child{
+display: inline-block;
+}
+span:last-child{
+display: none;
+}
+&:hover{
+span:first-child{
+  display: none;
+}
+span:last-child{
+display: inline-block;
+}
+}
+}
+.MainMoudle .HnameBtnUn img{
+margin-right:5px;
+}
+.MainMoudle .SiH-Href{
+margin-top:50px;
+}
+.MainMoudle .SiH-Launch{
+float: left;
+width: 154px;
+height: 38px;
+font-size: 14px;
+color: rgb(255, 255, 255);
+line-height: 38px;
+border-radius: 19px;
+// background-image: -moz-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+// background-image: -ms-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+// background-image: -webkit-linear-gradient( 0deg, rgb(4,233,245) 0%, rgb(0,153,229) 100%);
+background-image:url(../../images/postbtn2.png);
+box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.11);
+text-align: center;
+margin-right: 15px;
+cursor:pointer; 
+}
+.MainMoudle .SiH-Launch:hover{
+transform:translateY(-3px);
+-webkit-transform:translateY(-3px);
+-moz-transform:translateY(-3px);
+-ms-transform:translateY(-3px);
+box-shadow: (0 10px 20px rgba(4,233,245, 0.1));
+}
+.MainMoudle .SiH-Launch img{
+margin: -1px;
+margin-right: 5px;
+}
+.MainMoudle .goShop{
+width: 66px;
+height: 35px;
+line-height:34px;
+font-size: 14px;
+color: rgb(88, 88, 88);
+border: 1px solid rgb(234, 236, 239);
+border-radius: 19px;
+background-color: rgba(253, 35, 86, 0);
+}
+.goTop{
+display: inline-block;
+position: fixed;
+// right:00000;
+bottom:150px;
+width: 40px;
+height: 40px;
+background:url(http://www.iplaystone.com/circle/img/top.png) no-repeat center top;
+background-position:0 0;
+margin-top: 90px;
+&:hover{
+  background-position:0 -41px;
+}
+}
+.rotatez{
+position: relative;
+top:-3px;
+right: -5px;
+display: inline-block;
+width: 0;
+height: 2px;
+border: solid;
+border-width: 5px;
+border-color: #585858 transparent transparent transparent;
+transition: all .3s linear;
+-webkit-transition: all .3s linear;
+-ms-transition: all .3s linear;
+-moz-transition: all .3s linear;
+transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+margin-left: 3px;
+}
+.roate{
+transform: rotate(0);
+-moz-transform: rotate(0);
+-ms-transform: rotate(0);
+-webkit-transform: rotate(0);
+top: 5px;
+}
+.face{
+width: 22px;
+height: 26px;
+margin:0 2px;
+}
+.divmask{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:1000003;
+}

@@ -1,0 +1,95 @@
+/* line 2, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader {
+  width: 962px;
+  height: 82px;
+  background: #fff;
+  padding: 19px;
+  font-family: "Microsoft YaHei";
+}
+/* line 8, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 13, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-Pic {
+  width: 80px;
+  height: 80px;
+  margin-right: 19px;
+}
+/* line 18, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name {
+  width: 590px;
+  height: auto;
+}
+/* line 21, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name .Hname {
+  width: 100%;
+  font-size: 18px;
+  color: #404040;
+  line-height: 3;
+  height: 45px;
+}
+/* line 27, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name .Hname h5 {
+  height: 100%;
+}
+/* line 30, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name .Hname a {
+  margin: 14px 0 0 14px;
+}
+/* line 33, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn, .SocialIndexHeader .SiH-Info-name .Hname .HnameBtnUn {
+  width: 62px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #585858;
+  border: 1px solid #eaecef;
+  background-color: rgba(40, 215, 250, 0);
+}
+/* line 43, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Info-name .Htitle {
+  width: 100%;
+  color: #a6a6a6;
+  line-height: 2;
+  font-size: 14px;
+}
+/* line 50, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Href {
+  margin-right: 20px;
+  margin-top: 22px;
+}
+/* line 54, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Launch {
+  width: 124px;
+  height: 38px;
+  font-size: 14px;
+  color: white;
+  line-height: 38px;
+  border-radius: 19px;
+  background-image: -moz-linear-gradient(0deg, #04e9f5 0%, #0099e5 100%);
+  background-image: -webkit-linear-gradient(0deg, #04e9f5 0%, #0099e5 100%);
+  background-image: -ms-linear-gradient(0deg, #04e9f5 0%, #0099e5 100%);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.11);
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* line 68, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .SiH-Launch img {
+  margin: -1px;
+  margin-right: 5px;
+}
+/* line 73, ../sass/SocialIndexDetail.scss */
+.SocialIndexHeader .goShop {
+  width: 58px;
+  height: 35px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #585858;
+  border: 1px solid #eaecef;
+  border-radius: 19px;
+  background-color: rgba(253, 35, 86, 0);
+}

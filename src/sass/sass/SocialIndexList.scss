@@ -1,0 +1,377 @@
+@-webkit-keyframes mymove
+{
+from {top:0px;}
+to {top:230px;}
+}
+@keyframes mymove
+{
+from {top:0px;}
+to {top:230px;}
+}
+@-moz-keyframes mymove
+{
+from {top:0px;}
+to {top:230px;}
+}
+#SocialIndex .fixed{
+    position: fixed;
+    animation:mymove 2s normal;
+    -webkit-animation:mymove 2s normal;
+    -moz-animation:mymove 2s normal;
+    -ms-animation:mymove 2s normal;
+}
+.SocialIndexList{
+    width:700px;
+	padding:17px 0 33px;
+	.IndexListType{
+       width:662px;
+       top:0;
+       z-index:1000000003;
+       height: 15px;
+       padding:17px 19px;
+       border-bottom: 1px solid #e6e7eb;
+       background:#fff;
+       transition: all .3s linear;
+       -ms-transition: all .3s linear;
+       -moz-transition: all .3s linear;
+       -webkit-transition: all .3s linear;
+       .TypeTag{
+       	height: 15px;
+       	line-height:15px;
+       	width: 540px;
+       	ul{
+            height: 20px;
+       		margin-top:-5px
+       	}
+       	li{
+       		float: left;
+       		width:55px;
+       		margin-right:20px;
+       		height: 20px;
+       		line-height:20px;
+       		&:first-child{
+       			border-right:2px solid rgb(238, 240, 241); 
+       		}
+       		a{
+       			font-size: 16px;
+                color: #999999;
+                display: inline-block;
+                padding:0 3px;
+                height: 100%;
+                text-align: left;
+       		    &:hover{
+       		    	color: rgb(64, 64, 64);
+       		    }
+       		}
+       	}
+       	.current{
+          color: rgb(64, 64, 64);
+          border-bottom: 3px solid #0af;
+          padding-bottom: 16px;
+       	}
+       }
+       .scrrenTag{
+         position:relative;
+       	 top:-10px;
+       	 width: 96px;
+         height: 32px;
+       	 font-size: 14px;
+         color: rgb(88, 88, 88);
+         border:1px solid rgb(229, 229, 229);
+         background-color: rgba(128, 128, 128, 0);
+         z-index:1000004;
+         h6{
+         	position: relative;
+         	width:100%;
+         	height: 100%;
+         	text-align: center;
+         	line-height: 32px;
+         	cursor:pointer;
+         }
+         .InputSelect{
+         	position:absolute;
+            top:32px;
+            left:-1px;
+         	width: 96px;
+            min-height: 32px;
+            border:1px solid rgb(229, 229, 229);
+            background-color:#fff;
+            z-index:1000004;
+            li{
+                position: relative;
+            	height: 32px;
+            	text-align: left;
+            	line-height: 32px;
+            	cursor: pointer;
+                padding-left:14px;
+                width: 82px;
+                z-index:100004;
+            	&:hover{
+            	   background:#f5f6f7;
+            	}
+            }
+         }
+       }
+	}
+	.IndexListCont{
+       width:100%;
+       height:auto;
+       li{
+         position: relative;
+         min-height:55px;
+         padding:30px 19px;
+         border-bottom: 1px solid #e6e7eb; 
+         &::before{
+		    content: '';
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 0%;
+		    height: 100%;
+		    z-index: 0;
+		    opacity: 0;
+		    background-color: rgba(164, 168, 195, 0.5);
+		    -webkit-transition: all 0.8s;
+		    -moz-transition: all 0.8s;
+		    -o-transition: all 0.8s;
+		    transition: all 0.8s;
+		}
+		&:hover::before{
+		    // opacity: 0.2;
+		    // width: 100%;
+		}
+         .Jitems{
+         	position:relative;
+         	height: auto;
+         	width: 100%;
+         	z-index: 1;
+         }
+         .Jitems-Title{
+         	width:100%;
+         	height: 30px;
+         	a,i{
+         		display: inline-block;
+         	}
+         	a{
+         		max-width:520px;
+         		overflow:hidden;
+         		text-overflow: ellipsis;
+         		white-space: nowrap;
+         		font-size: 16px;
+         		color:#585858;
+         		text-align: left;
+         		margin-right: 5px;
+                &:hover{
+                    // text-decoration: underline;
+                    color:#00aaff;
+                }
+         	}
+         }
+         .Jitems-Detail{
+         	width:100%;
+         	min-height: 27px;
+         	margin-bottom: 10px;
+         	.Jitems-Detail-text{
+         		font-size: 14px;
+         		color: rgb(167, 167, 167);
+         		max-height: 30px;
+         		max-width:100%;
+         		overflow:hidden;
+         		text-overflow: ellipsis;
+         		white-space: nowrap;
+                line-height: 24px;
+                p{
+                    font-size: 14px !important;
+                    color: rgb(167, 167, 167) !important;
+                }
+         	}
+         	.Jitems-Detail-img{
+                position:relative;
+         		width:100%;
+                .JDICont{
+                    position: relative;
+                    z-index: 4;
+                    max-height: 110px;
+                    width:100%;
+                    overflow: hidden;
+                }
+         	}
+            .imgList{
+                position:relative;
+                display: inline-block;
+                max-width:156px;
+                text-align: left;
+                height: 110px;
+                overflow:hidden;
+                margin-right:10px;
+                .imgfd{
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    background:rgba(0,0,0,0) url(../../images/icon-max.png) no-repeat center;
+                }
+                &:hover .imgfd{
+                    display: inline-block;
+                }
+                img{
+                    display: inline-block;
+                    cursor: -webkit-zoom-in;
+                    cursor: zoom-in;
+                    max-height: 100%;
+                    //max-width:100%;
+                }
+            }
+         }
+         .Jitems-Info{
+         	width:100%;
+         	height:20px;
+         	.JuserInfo{
+         		min-width:160px;
+         		max-width: 400px;
+         		a{
+         			display: inline-block;
+         			position: relative;
+         			line-height:20px;
+         			font-size: 12px;
+         			color: rgb(102, 102, 102);
+         		}
+         		img{
+         			position: relative;
+         			top:4px;
+     				display: inline;
+     				width:20px;
+     				height:20px;
+     				border-radius:50%;
+         		}
+         		.JuserInfo-time{
+         			font-size: 12px;
+         			color: rgb(167, 167, 167);
+         			border-left:1px solid rgb(238, 238, 238);
+         			margin-left:5px;
+         			padding-left:10px;
+         		}
+         	}
+         	.JdataInfo{
+         		display: inline-block;
+         		height: 20px;
+         		line-height: 20px;
+         		font-size: 12px;
+         		color: rgb(167, 167, 167);
+         		margin-top:4px;
+         		span{
+         			margin-right:20px;
+         			img{
+         				margin-right:5px;
+         			}
+         		}
+         	}
+         }
+       }
+	}
+    .Jlist-thumb{
+        // display: none;
+        position:relative;
+        margin-top:-110px;
+        width: 632px;
+        min-height: 100px;
+        padding: 10px;
+        background: #f7f7f7;
+        border: 1px solid #e4e6eb;
+        z-index:5;
+        cursor: normal;
+        .thumbHd{
+            height: 25px;
+            width:100%;
+            border-bottom:1px solid #e4e6eb;
+            text-align: left;
+            a{ 
+                float: left;
+                font-size: 12px;
+                color: #2d64b3;
+                text-align: left;
+                box-sizing:content-box;
+                i{  
+                    display: inline-block;
+                    position:relative;
+                    top:-1px;
+                    width: 20px;
+                    height: 20px;
+                    vertical-align: middle;
+                    background:url(../../images/thread_list_z_eca48fe.png);
+                    background-position: 0px -30px;
+                }
+            }
+        }
+        .thumbWarp{
+            position:relative;
+            width:632px;
+            height: 90%;
+            padding: 1% 0;
+            margin-top:10px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            img{
+                display: inline-block;
+                // width:100%;
+                max-width: 100%;
+                cursor: -webkit-zoom-out;
+                cursor: zoom-out;
+            }
+            .thumbsx{
+                position:absolute;
+                top:0;
+                left:0;
+                width: 100%;
+                height: 100%;
+                z-index: 5;
+                &:hover{
+                 cursor: normal;
+                 background:rgba(0,0,0,0.05) url(../../images/icon-mini.png) no-repeat center;
+                }
+            }
+            .thumbWarpList{
+                position:relative;
+                margin-top:10px;
+                overflow:hidden;
+                width:632px;
+            }
+            .thumbNext,
+            .thumbPrev{
+                position:absolute;
+                top:0;
+                width:20%;
+                height: 100%;
+                cursor: pointer;
+                z-index: 6;
+            }
+            .thumbPrev{
+               left:0; 
+               &:hover{
+                 background:rgba(0,0,0,0.01) url(../../images/icon-left.png) no-repeat center; 
+               }
+            }
+            .thumbNext{
+               right: 0;
+               &:hover{
+                background:rgba(0,0,0,0.01) url(../../images/icon-right.png) no-repeat center;
+               }
+            }
+        }
+    }
+}
+.selectMask{
+    position:fixed;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 100003;
+}

@@ -1,0 +1,157 @@
+/* line 1, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend {
+  width: 240px;
+  background: #fff;
+  top: 230px;
+  padding: 15px 19px;
+  margin-bottom: 20px;
+  transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+}
+/* line 12, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .MoudleHd a {
+  background: url(../../images/icon2.png) no-repeat right 6px;
+}
+/* line 14, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .MoudleHd a:hover {
+  color: #00aaff;
+}
+/* line 19, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList {
+  width: 100%;
+  height: auto;
+}
+/* line 22, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0 20px 0;
+}
+/* line 26, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 30, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li:last-child {
+  margin-bottom: 0;
+}
+/* line 33, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameName {
+  width: 182px;
+  height: 100%;
+}
+/* line 36, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameName img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/* line 43, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .NameBox {
+  width: 117px;
+}
+/* line 45, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .NameBox .qzname {
+  display: inline-block;
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #585858;
+  line-height: 2.2;
+}
+/* line 54, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .NameBox h6 {
+  font-size: 12px;
+  color: #8c8c8c;
+  width: 117px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 64, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn {
+  width: 56px;
+  height: 26px;
+  margin-top: 9px;
+}
+/* line 68, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  text-align: center;
+  line-height: 26px;
+}
+/* line 76, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_nJoin {
+  color: #585858;
+  border: 1px solid #eaecef;
+  background-color: rgba(170, 178, 189, 0);
+}
+/* line 81, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_Join {
+  color: #fff;
+  background: #00aaff;
+}
+/* line 84, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_Join img {
+  margin-right: 3px;
+}
+/* line 89, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_nJoin span:first-child {
+  display: inline-block;
+}
+/* line 92, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_nJoin span:last-child {
+  display: none;
+}
+/* line 96, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_nJoin:hover span:first-child {
+  display: none;
+}
+/* line 99, ../sass/ScoialIndexRecommend.scss */
+.SocialIndexRecommend .RecommentList ul li .ListGameBtn .R_nJoin:hover span:last-child {
+  display: inline-block;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 270px !important;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 270px !important;
+  }
+}
+@-moz-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 270px !important;
+  }
+}
+/* line 124, ../sass/ScoialIndexRecommend.scss */
+.fixed3 {
+  position: fixed;
+  top: 270px;
+  animation: mymove 2s normal;
+  -webkit-animation: mymove 2s normal;
+  -moz-animation: mymove 2s normal;
+  -ms-animation: mymove 2s normal;
+}

@@ -1,0 +1,146 @@
+/* line 1, ../sass/SocialIndexHeader.scss */
+.h5 {
+  height: 100%;
+  display: inline-block;
+  color: #333;
+}
+
+/* line 6, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader {
+  width: 962px;
+  height: 82px;
+  background: #fff;
+  padding: 19px;
+  font-family: "Microsoft YaHei";
+}
+/* line 13, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-Pic {
+  width: 80px;
+  height: 80px;
+  margin-right: 19px;
+}
+/* line 18, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name {
+  width: 590px;
+  height: auto;
+}
+/* line 21, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name a {
+  color: #333;
+}
+/* line 24, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname {
+  width: 100%;
+  font-size: 18px;
+  color: #404040;
+  line-height: 3;
+  height: 45px;
+}
+/* line 30, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname a:first-child {
+  color: #333;
+}
+/* line 33, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname #h5 {
+  height: 100%;
+  display: inline-block;
+  color: #333;
+}
+/* line 38, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname a.HnameBtnUn {
+  margin: 14px 0 0 14px;
+}
+/* line 41, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+/* line 45, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn, .SocialIndexHeader .SiH-Info-name .Hname .HnameBtnUn {
+  width: 62px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #585858;
+  border: 1px solid #eaecef;
+  background-color: rgba(40, 215, 250, 0);
+}
+/* line 54, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnUn {
+  color: #fff;
+  background: #00aaff;
+  border-color: #00aaff;
+}
+/* line 58, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnUn img {
+  margin-right: 5px;
+}
+/* line 63, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn span:first-child {
+  display: inline-block;
+}
+/* line 66, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn span:last-child {
+  display: none;
+}
+/* line 70, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn:hover span:first-child {
+  display: none;
+}
+/* line 73, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Hname .HnameBtnOn:hover span:last-child {
+  display: inline-block;
+}
+/* line 79, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Info-name .Htitle {
+  width: 100%;
+  color: #a6a6a6;
+  line-height: 2;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 89, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Href {
+  margin-right: 20px;
+  margin-top: 22px;
+}
+/* line 93, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Launch {
+  width: 124px;
+  height: 38px;
+  font-size: 14px;
+  color: white;
+  line-height: 38px;
+  border-radius: 19px;
+  background-image: url(../../images/postbtn1.png);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.11);
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* line 108, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Launch img {
+  margin: -1px;
+  margin-right: 5px;
+}
+/* line 112, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .SiH-Launch:hover {
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(4, 233, 245, 0.1);
+}
+/* line 120, ../sass/SocialIndexHeader.scss */
+.SocialIndexHeader .goShop {
+  width: 66px;
+  height: 35px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #585858;
+  border: 1px solid #eaecef;
+  border-radius: 19px;
+  background-color: rgba(253, 35, 86, 0);
+}

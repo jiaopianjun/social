@@ -1,0 +1,301 @@
+.SocialPost{
+  height: 735px;
+  width: 1000px;
+  margin:0 auto;
+  
+  .SP-Hd{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+    line-height: 1.5;
+    background:url(../../images/icon15.png) no-repeat center left;
+    padding-left:20px;
+    margin-bottom: 25px;
+  }
+  .SP-Main{
+    width: 100%;
+    height: auto;
+    .SPM-Title{
+      height: 40px;
+      width: 1000px;
+      margin-bottom: 15px;
+      .SPMT-Input{
+        position:relative;
+        width:600px;
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+        color: rgb(128, 128, 128);
+        margin-right:20px;
+      }
+      input{
+        width: 448px;
+        padding-right:130px;
+        padding-left:20px;
+        height: 38px;
+        outline: none;
+      }
+      span{
+        position: absolute;
+        right:15px;
+        top:13px;
+      }
+      .SPMT-Classify{
+        position: relative;
+        width: 136px;
+        padding:0 10px;
+        height: 40px;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        color: rgb(77, 77, 77);
+        background: #fff;
+        .SPMTC-Input{
+          width: 100%;
+          height: 100%;
+          text-align: left;
+          line-height: 40px;
+        }
+        i{
+          position: absolute;
+          top: 10px;
+          right: 15px;
+          display: inline-block;
+          width: 0;
+          height: 2px;
+          border: solid;
+          border-width: 5px;
+          border-color: #585858 transparent transparent transparent;
+          transition: all .3s linear;
+          -webkit-transition: all .3s linear;
+          -ms-transition: all .3s linear;
+          -moz-transition: all .3s linear;
+          transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          margin-left: 3px;
+        }
+        .rotate{
+          top:18px;
+          transform: rotate(0);
+          -moz-transform: rotate(0);
+          -ms-transform: rotate(0);
+          -webkit-transform: rotate(0);
+        }
+        .SPMTC-Select{
+          position: absolute;
+          top: 40px;
+          left: -1px;
+          width: 156px;
+          min-height: 32px;
+          border: 1px solid #e5e5e5;
+          background-color: #fff;
+          z-index: 100004;
+          li{
+            position:relative;
+            padding:0 10px;
+            height: 40px;
+            text-align: left;
+            line-height: 40px;
+            cursor: pointer;
+            z-index: 100004;
+            &:hover{
+              background:#f1f1f1;
+            }
+          }
+        }
+      }
+    }
+    .SPM-Tags{
+      position: relative;
+      min-height: 30px;
+      width: 100%;
+      margin:15px 0;
+      .TagsDiv{
+        position: relative;
+        min-height: 30px;
+        width: 100%;
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+        line-height: 30px;
+        .addTags{
+          color: rgb(0, 153, 229);
+          padding-left:20px;
+          background:url(../../images/btn.png) no-repeat center left;
+          margin-right:30px;
+        }
+        .addTagsTs{
+          position: absolute;
+          left:80px;
+          display: inline-block;
+          width:323px;
+          height: 28px;
+          background:url(../../images/ts.png) no-repeat center left;
+        }
+        .tagsBox{
+          width: 755px;
+          min-height: 30px;
+          span{
+            position: relative;
+            float: left;
+            display: inline-block;
+            min-width: 37px;
+            height: 16px;
+            line-height: 16px;
+            padding:8px 10px;
+            padding-right:30px;
+            border: 1px solid rgb(220, 220, 220);
+            background-color: rgba(255, 255, 255, .8);
+            color: rgb(128, 128, 128);
+            margin-right:10px;
+            margin-bottom: 10px;
+            i{
+              position: absolute;
+              display: inline-block;
+              width: 11px;
+              height: 11px;
+              top: 10px;
+              right:10px;
+              background: url(../../images/close.png) no-repeat center;
+            }
+          }
+        }
+        .tagsTs{
+          color: rgb(128, 128, 128);
+        }
+      }
+      .TagsList{
+        position: absolute;
+        top: 45px;
+        width: 603px;
+        min-height: 30px;
+        max-height: 600px;
+        padding: 30px 20px;
+        background: #fff;
+        border: 1px solid #999;
+        z-index: 100004;
+        overflow: hidden;
+        overflow-y: auto;
+        .closeTags{
+          position: absolute;
+          top:10px;
+          right:15px;
+
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          background:url(../../images/close.png) no-repeat center;
+        }
+        .TagsListItem{
+          width: 100%;
+          height: 100%;
+        }
+        li{
+          float: left;
+          width: 115px;
+          padding-right:20px;
+          height:35px; 
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 12px;
+          font-family: "Microsoft YaHei";
+          border-right:1px solid  rgb(230, 230, 230);
+          margin-right:20px;
+          &:nth-child(4n){
+            margin-right: 0;
+            border:none;
+          }
+        }
+        .active{
+          color: rgb(0, 153, 229);
+          font-weight: bold;
+        }
+      }
+    }
+    .SPM-Editor{
+       height: 548px;
+       margin-bottom: 15px;
+       background: #fff;
+       #editorElem{
+          .w-e-text-container{
+             height: 500px !important;
+          }
+          .w-e-toolbar{
+            background: #fafafa !important;
+            height: 50px;
+            line-height: 37px;
+            padding:0 !important;
+          }
+          .w-e-toolbar .w-e-menu{
+            margin-top:4px;
+            padding:8px 10px;
+          }
+          .w-e-toolbar .w-e-menu:nth-child(3){
+            margin-top:5px;
+          }
+          .w-e-toolbar .w-e-menu:nth-child(4){
+            border-left:1px solid #eee;
+            margin-left:10px;
+            padding-left:19px;
+          }
+          .w-e-toolbar .w-e-icon-image{
+            margin-top:2px;
+          }
+          .w-e-text-container .w-e-panel-container .w-e-emoticon-container .w-e-item{
+             padding:3px ;
+          }
+          .w-e-text{
+             overflow-y:auto; 
+          }
+          .w-e-icon-happy{
+            margin-top:0;
+          }
+          .w-e-icon-link{
+            position: relative;
+            top: 0px;
+          }
+       }
+    }
+    .SPM-Operation{
+      height: 48px;
+      line-height: 40px;
+      .PostHtml{
+        width:118px;
+        height: 48px;
+        font-size: 14px;
+        color:#fff;
+        text-align: center;
+        line-height: 42px;
+        background:url(../../images/icon17.png) no-repeat center;
+        &:hover{
+         transform:translateY(-3px);
+         -webkit-transform:translateY(-3px);
+         -moz-transform:translateY(-3px);
+         -ms-transform:translateY(-3px);
+         box-shadow: (0 10px 20px rgba(4,233,245, 0.1));
+        }
+      }
+      span{
+        font-size: 12px;
+      }
+      .wordnum{
+        color: rgb(128, 128, 128);
+      }
+      .errts{
+        margin-right:20px;
+        color:#ff3333;
+        padding-left:20px;
+        background:url(../../images/icon16.png) no-repeat center left;
+      }
+    }
+  }
+}
+.divmask{
+  position:fixed;
+  width: 100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 100003;
+}

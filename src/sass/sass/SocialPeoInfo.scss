@@ -1,0 +1,186 @@
+.PeoInfo{
+    top:0;
+    width: 278px;
+    min-height: 252px;
+    background: #fff url(http://www.iplaystone.com/circle/img/peobg.png) no-repeat center top;
+    margin-bottom: 20px;
+  }
+  .PeoInfo-Hd{
+    width: 73px;
+    height: 73px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 35px auto 15px;
+  }
+  .PeoInfo-Hd img{
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+  }
+  .PeoInfo-Name{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+    text-align: center;
+    margin:0 auto;
+  }
+  .PeoInfo-Name:hover{
+    color:#0099e5;
+  }
+  .PeoInfo-GoLogin{
+    font-size:24px;
+    color:#333;
+    width:100%;
+    text-align:center;
+    margin:30px auto;
+  }
+  .PeoInfo h6{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(128, 128, 128);
+    height: 20px;
+    overflow: hidden;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    margin-top:10px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+  .PeoInfo .span{
+    height: 35px;
+    width: 100%;
+    text-align: center;
+  }
+  .PeoInfo .span a{
+    display: inline-block;
+    height: 35px;
+    width: 83px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(77, 77, 77);
+  }
+  .PeoInfo .span a:hover{
+    color:#0099e5;
+  }
+  .PeoInfo .collection{
+    border-right:1px solid #eef0f1;
+    border-left:1px solid #eef0f1;
+  }
+  .PeoInfo a span:first-child{
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .PeoInfo .home span:first-child{
+    width: 100%;
+    height: 16px;
+    background: url(../../images/home.png) no-repeat center;
+  }
+  .PeoInfo .collection span:first-child{
+    width: 100%;
+    height: 17px;
+    background: url(../../images/sc.png) no-repeat center;
+  }
+  .PeoInfo .qz span:first-child{
+    width: 100%;
+    height: 16px;
+    background: url(../../images/sq.png) no-repeat center;
+  }
+  .PeoInfo .home:hover span:first-child{
+    width: 100%;
+    height: 16px;
+    background: url(../../images/home_hover.png) no-repeat center;
+  }
+  .PeoInfo .collection:hover span:first-child{
+    width: 100%;
+    height: 17px;
+    background: url(../../images/sc_hover.png) no-repeat center;
+  }
+  .PeoInfo .qz:hover span:first-child{
+    width: 100%;
+    height: 16px;
+    background: url(../../images/sq_hover.png) no-repeat center;
+  }
+  .hfixed .myCircle{
+    display:none;
+  }
+  .myCircleHeight{
+    height:140px;
+  }
+  .myCircle{
+    width:240px;
+    border-top:1px solid #eef0f1;
+    margin:0 auto;
+    margin-top:30px;
+    padding-top:20px;
+    .myCircleList{
+      overflow:hidden;
+    }
+    .showMoreMyCircle{
+      font-size: 14px;
+      font-family: "Microsoft YaHei";
+      color: rgb(128, 128, 128);
+      text-align: center;
+      width: 182px;
+      height: 34px;
+      line-height:34px;
+      border:1px solid rgb(234, 236, 239);
+      background-color: rgba(0, 153, 229, 0);
+      cursor:pointer;
+      margin:0 auto;
+      margin-bottom:25px;
+      i{
+        position: relative;
+        left: 6px;
+        top: -3px;
+        display:inline-block;
+        width:9px;
+        height:5px;
+        background:url(../../images/icon19.png) no-repeat
+      }
+      &:hover{
+        border-color: rgb(220, 222, 224);
+      }
+    }
+  }
+  .myCircle h4{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(64, 64, 64);
+    margin-bottom:20px;
+  }
+  .myCircle .myCircleListItem{
+    width:105px;
+    height:30px;
+    margin-bottom:15px;
+    &:nth-child(2n+1){
+      margin-right:15px;
+    }
+    img{
+      float:left;
+      width:30px;
+      height:30px; 
+      margin-right:10px;
+    }
+    span{
+      float:left;
+      display:inline-block;
+      width:65px;
+      height:30px;
+      line-height:30px;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 14px;
+      font-family: "Microsoft YaHei";
+      color: rgb(128, 128, 128);
+      text-align:left;
+    }
+  }

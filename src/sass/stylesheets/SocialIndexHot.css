@@ -1,0 +1,79 @@
+/* line 1, ../sass/SocialIndexHot.scss */
+.SocialIndexHot {
+  padding: 15px 19px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+/* line 5, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+/* line 9, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul {
+  width: 100%;
+  height: auto;
+}
+/* line 12, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul li {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* line 17, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul li:last-child {
+  margin-bottom: 0;
+}
+/* line 20, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul li:first-child i {
+  background-color: #ff5c26;
+}
+/* line 23, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul li:nth-child(2) i {
+  background-color: #fd9100;
+}
+/* line 26, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul li:nth-child(3) i {
+  background-color: #f8c127;
+}
+/* line 30, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul a {
+  width: 100%;
+  font-size: 14px;
+}
+/* line 34, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background: #cdcdcd;
+  margin: 2px 5px 0 0;
+  font-style: normal;
+}
+/* line 47, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul span {
+  color: #585858;
+  display: inline-block;
+  width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+/* line 55, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul span:hover {
+  color: #00aaff;
+}
+/* line 59, ../sass/SocialIndexHot.scss */
+.SocialIndexHot .HotList ul b {
+  color: #a7a7a7;
+  font-style: normal;
+  font-weight: normal;
+}

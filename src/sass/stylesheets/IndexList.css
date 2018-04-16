@@ -1,0 +1,604 @@
+@-webkit-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 230px;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 230px;
+  }
+}
+@-moz-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 230px;
+  }
+}
+/* line 16, ../sass/IndexList.scss */
+#IndexList .fixed {
+  position: fixed;
+  animation: mymove 2s normal;
+  -webkit-animation: mymove 2s normal;
+  -moz-animation: mymove 2s normal;
+  -ms-animation: mymove 2s normal;
+}
+
+/* line 23, ../sass/IndexList.scss */
+.IndexList {
+  width: 700px;
+  padding: 17px 0 33px;
+}
+/* line 26, ../sass/IndexList.scss */
+.IndexList .IndexListType {
+  width: 661px;
+  top: 0;
+  z-index: 3;
+  height: 15px;
+  padding: 17px 19px;
+  border-bottom: 1px solid #e6e7eb;
+  background: #fff;
+}
+/* line 34, ../sass/IndexList.scss */
+.IndexList .IndexListType .TypeTag {
+  height: 15px;
+  line-height: 15px;
+  width: 540px;
+}
+/* line 38, ../sass/IndexList.scss */
+.IndexList .IndexListType .TypeTag ul {
+  height: 20px;
+  margin-top: -5px;
+}
+/* line 42, ../sass/IndexList.scss */
+.IndexList .IndexListType .TypeTag li {
+  float: left;
+  min-width: 55px;
+  margin-right: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #0099e5;
+}
+/* line 53, ../sass/IndexList.scss */
+.IndexList .IndexListCont {
+  width: 100%;
+  height: auto;
+}
+/* line 56, ../sass/IndexList.scss */
+.IndexList .IndexListCont li {
+  position: relative;
+  min-height: 72px;
+  padding: 30px 19px;
+  border-bottom: 1px solid #e6e7eb;
+}
+/* line 61, ../sass/IndexList.scss */
+.IndexList .IndexListCont li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0;
+  background-color: rgba(164, 168, 195, 0.5);
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/* line 80, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems {
+  position: relative;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+/* line 86, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Title {
+  width: 100%;
+  height: 30px;
+}
+/* line 89, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Title a, .IndexList .IndexListCont li .Jitems-Title i {
+  display: inline-block;
+}
+/* line 92, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Title a {
+  max-width: 520px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #585858;
+  text-align: left;
+  margin-right: 5px;
+}
+/* line 101, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Title a:hover {
+  color: #00aaff;
+}
+/* line 107, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* line 112, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_join, .IndexList .IndexListCont li .Jitems-Name .Indexlist_ujoin {
+  width: 62px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #585858;
+  border: 1px solid #eaecef;
+  background-color: rgba(40, 215, 250, 0);
+}
+/* line 121, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_join {
+  color: #fff;
+  background: #00aaff;
+  border-color: #00aaff;
+}
+/* line 125, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_join img {
+  margin-right: 5px;
+}
+/* line 130, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_ujoin span:first-child {
+  display: inline-block;
+}
+/* line 133, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_ujoin span:last-child {
+  display: none;
+}
+/* line 137, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_ujoin:hover span:first-child {
+  display: none;
+}
+/* line 140, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Indexlist_ujoin:hover span:last-child {
+  display: inline-block;
+}
+/* line 145, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .qzicon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+/* line 152, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Qzname {
+  font-size: 14px;
+  color: #404040;
+  font-weight: bold;
+  margin-right: 15px;
+}
+/* line 157, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Name .Qzname:hover {
+  color: #0099e5;
+}
+/* line 162, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail {
+  width: 100%;
+  min-height: 27px;
+  margin-bottom: 10px;
+}
+/* line 166, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .Jitems-Detail-text {
+  font-size: 14px;
+  color: #a7a7a7;
+  max-height: 30px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 24px;
+}
+/* line 175, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .Jitems-Detail-text p {
+  font-size: 14px !important;
+  color: #a7a7a7 !important;
+}
+/* line 180, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .Jitems-Detail-img {
+  position: relative;
+  width: 100%;
+}
+/* line 183, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .Jitems-Detail-img .JDICont {
+  position: relative;
+  z-index: 4;
+  max-height: 110px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 191, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .imgList {
+  position: relative;
+  display: inline-block;
+  max-width: 156px;
+  text-align: left;
+  height: 110px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+/* line 199, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .imgList .imgfd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: transparent url(../../images/icon-max.png) no-repeat center;
+}
+/* line 208, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .imgList:hover .imgfd {
+  display: inline-block;
+}
+/* line 211, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Detail .imgList img {
+  display: inline-block;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  max-height: 100%;
+}
+/* line 220, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info {
+  width: 100%;
+  height: 20px;
+}
+/* line 223, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JuserInfo {
+  min-width: 160px;
+  max-width: 400px;
+}
+/* line 226, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JuserInfo a {
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+}
+/* line 233, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JuserInfo img {
+  position: relative;
+  top: 4px;
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+/* line 241, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JuserInfo .JuserInfo-time {
+  font-size: 12px;
+  color: #a7a7a7;
+  border-left: 1px solid #eeeeee;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+/* line 249, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JdataInfo {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #a7a7a7;
+  margin-top: 4px;
+}
+/* line 256, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JdataInfo span {
+  margin-right: 20px;
+}
+/* line 258, ../sass/IndexList.scss */
+.IndexList .IndexListCont li .Jitems-Info .JdataInfo span img {
+  margin-right: 5px;
+}
+/* line 266, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb {
+  position: relative;
+  margin-top: -110px;
+  width: 632px;
+  min-height: 100px;
+  padding: 10px;
+  background: #f7f7f7;
+  border: 1px solid #e4e6eb;
+  z-index: 5;
+  cursor: normal;
+}
+/* line 277, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbHd {
+  height: 25px;
+  width: 100%;
+  border-bottom: 1px solid #e4e6eb;
+  text-align: left;
+}
+/* line 282, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbHd a {
+  float: left;
+  font-size: 12px;
+  color: #2d64b3;
+  text-align: left;
+  box-sizing: content-box;
+}
+/* line 288, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbHd a i {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../../images/thread_list_z_eca48fe.png);
+  background-position: 0px -30px;
+}
+/* line 300, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp {
+  position: relative;
+  width: 632px;
+  height: 90%;
+  padding: 1% 0;
+  margin-top: 10px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 313, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp img {
+  display: inline-block;
+  max-width: 100%;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+/* line 319, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbsx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+/* line 326, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbsx:hover {
+  cursor: normal;
+  background: rgba(0, 0, 0, 0.05) url(../../images/icon-mini.png) no-repeat center;
+}
+/* line 331, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbWarpList {
+  position: relative;
+  margin-top: 10px;
+  overflow: hidden;
+  width: 632px;
+}
+/* line 337, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbNext,
+.IndexList .Jlist-thumb .thumbWarp .thumbPrev {
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 6;
+}
+/* line 346, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbPrev {
+  left: 0;
+}
+/* line 348, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbPrev:hover {
+  background: rgba(0, 0, 0, 0.01) url(../../images/icon-left.png) no-repeat center;
+}
+/* line 352, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbNext {
+  right: 0;
+}
+/* line 354, ../sass/IndexList.scss */
+.IndexList .Jlist-thumb .thumbWarp .thumbNext:hover {
+  background: rgba(0, 0, 0, 0.01) url(../../images/icon-right.png) no-repeat center;
+}
+
+/* line 361, ../sass/IndexList.scss */
+.selectMask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100003;
+}
+
+/* line 369, ../sass/IndexList.scss */
+.drownbox {
+  width: 100%;
+  margin: 30px auto 0;
+  height: 60px;
+  text-align: center;
+}
+/* line 374, ../sass/IndexList.scss */
+.drownbox span {
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: gray;
+}
+
+/* line 384, ../sass/IndexList.scss */
+.goDrown {
+  cursor: pointer;
+  padding-right: 10px;
+  background: url(../../images/icon18.png) no-repeat center right;
+}
+/* line 388, ../sass/IndexList.scss */
+.goDrown:hover {
+  color: #0099fe;
+  background: url(../../images/icon18_hover.png) no-repeat center right;
+}
+
+/* line 393, ../sass/IndexList.scss */
+.spinner8 {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+/* line 399, ../sass/IndexList.scss */
+.container1 > div, .container2 > div, .container3 > div {
+  width: 16px;
+  height: 16px;
+  background-color: #0099fe;
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 410, ../sass/IndexList.scss */
+.spinner8 .spinner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 415, ../sass/IndexList.scss */
+.container2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+/* line 419, ../sass/IndexList.scss */
+.container3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+
+/* line 423, ../sass/IndexList.scss */
+.circle1 {
+  top: 0;
+  left: 0;
+}
+
+/* line 424, ../sass/IndexList.scss */
+.circle2 {
+  top: 0;
+  right: 0;
+}
+
+/* line 425, ../sass/IndexList.scss */
+.circle3 {
+  right: 0;
+  bottom: 0;
+}
+
+/* line 426, ../sass/IndexList.scss */
+.circle4 {
+  left: 0;
+  bottom: 0;
+}
+
+/* line 427, ../sass/IndexList.scss */
+.container2 .circle1 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+/* line 431, ../sass/IndexList.scss */
+.container3 .circle1 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+/* line 435, ../sass/IndexList.scss */
+.container1 .circle2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+/* line 439, ../sass/IndexList.scss */
+.container2 .circle2 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+/* line 443, ../sass/IndexList.scss */
+.container3 .circle2 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+
+/* line 447, ../sass/IndexList.scss */
+.container1 .circle3 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+
+/* line 451, ../sass/IndexList.scss */
+.container2 .circle3 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+/* line 455, ../sass/IndexList.scss */
+.container3 .circle3 {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+
+/* line 459, ../sass/IndexList.scss */
+.container1 .circle4 {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+/* line 463, ../sass/IndexList.scss */
+.container2 .circle4 {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+/* line 467, ../sass/IndexList.scss */
+.container3 .circle4 {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
