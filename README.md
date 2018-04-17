@@ -2,13 +2,6 @@
 #### 有问题直接留言
 
 
-# yes
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
 # install dependencies
 npm install
 
