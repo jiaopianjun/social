@@ -19,7 +19,7 @@ Vue + Js + Sass + Css3 + Vue-resouse 等
 #### 项目地址
 可以直接访问线上地址 [社区](http://stone.snail.com/social/index.html#/) 注册后  登录 即可 体验  发帖 回帖 等操作
 #### 项目运行
- - git clone https://github.com/jiaopianjun/echat.git
+ - git clone https://github.com/jiaopianjun/social.git
  - npm install 
  - npm run dev
 #### 项目截图
