@@ -282,6 +282,7 @@
       editor.customConfig.uploadImgServer = '//moment.snail.com/api/v1/upload/image'  // 上传图片到服务器
       editor.customConfig.uploadImgMaxSize = 2 * 1024 * 1024
       editor.customConfig.uploadImgMaxLength = 50
+      editor.customConfig.withCredentials = true
       editor.customConfig.uploadImgParams = {
         from: 'post'   // 属性值会自动进行 encode ，此处无需 encode
       }

@@ -28,7 +28,7 @@
                       <div class="JDICont">
                          <div class="imgList" v-for="(img, index) in list.images" @click="ShowBigPic($event,index,i)">
                             <div class="imgfd"></div>
-                            <img :src="img" alt="点击加载图片"/>
+                            <img :src="img + '?x-oss-process=image/resize,h_110'" alt="点击加载图片"/>
                          </div>
                       </div>
                       <div class="Jlist-thumb clearfix" v-if="list.images != ''" v-show="list.flag">

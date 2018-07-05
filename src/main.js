@@ -9,6 +9,11 @@ Vue.use(VueResource)
 
 Vue.config.productionTip = false
 
+Vue.http.interceptors.push((request, next) => {
+  request.credentials = true
+  next()
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
